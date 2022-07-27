@@ -1,0 +1,35 @@
+.benefits {
+    min-height: 470px;
+    padding: 70px 0 78px 0;
+    &__wrapper {
+        margin-top: 65px;
+    }
+    &__icons {
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+    }
+    &__subtitle {
+        margin-top: 38px;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        color: #0d0d0d;
+    }
+    &__text {
+        
+        margin-top: 26px;
+        max-width: 240px;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #0d0d0d;
+    }
+    span {
+        color: #f00;
+        text-transform: uppercase; 
+        text-decoration: underline;
+    }
+}

@@ -1,0 +1,47 @@
+.feed {
+    padding-bottom: 71px;
+
+    &__icons {
+        margin-top: 17px;
+    }
+    &__icon {
+        margin-top: 53px;
+        display: flex;
+        hr {
+            margin-bottom: 0;
+            margin-left: -222px;
+            width: 940px;
+            height: 1px;
+            background-color: #f6f6f6;
+            border-bottom: none;
+            }
+        }
+    img {
+        width: 169px;
+        height: 169px;
+    
+    }
+    &__text {
+        margin-left: 63px;
+        width: 650px;
+    }
+    &__name {
+        font-size: 18px;
+        font-weight: bold;
+        text-align: left;
+        color: #0d0d0d;
+    }
+    &__subheader {
+        font-size: 14px;
+        font-weight: 500;
+        text-align: left;
+        color: #646464;
+    }
+    &__descr {
+        font-size: 16px;
+        font-weight: 300;
+        text-align: left;
+        color: #0d0d0d;
+    }
+
+}
